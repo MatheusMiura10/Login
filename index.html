@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header id="log">
+        <h1>
+            Login
+        </h1> 
+        
+    
+    <form action="cadastro.php" method="get" autocomplete="off">
+    <p id="lo">
+        <label for="user" >
+        <input minlength="4" maxlength="10" type="text" name="user" id="user" placeholder="Username"> <i class='bx bxs-user' style='color:#ffffff'  ></i> </label> <br>
+        <label for="pass">  
+        <input  minlength="5" maxlength="10" type="password" name="pass" id="pass" placeholder="Password"> <i class='bx bxs-lock-alt' style='color:#f5f0f0' ></i> </label>
+    </p >
+        <br>
+        <p>
+        <label for="box">
+        <input type="checkbox" name="box" id="box"> 
+        <span>Remember me</span>
+        </label>
+        <a id="Forget" href="#" target="_blank"> Forget Password? </a>
+        
+    </p>
+    
+    <div class="enviar">
+        <input type="submit" value="Login" >
+    </div>
+
+    <div>
+        <p>
+            Don't have an account? <a id="reg" href="#">Register</a>
+        </p>
+    </div>
+    </form>
+</header>
+</body>
+</html>
